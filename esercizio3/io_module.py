@@ -1,8 +1,6 @@
-"""Modulo per l'input/output e la gestione del menù."""
 
 
 def mostra_menu(voci):
-    """Stampa il menù con le voci fornite come lista di stringhe."""
     print("\n" + "=" * 35)
     print("       MENU PRINCIPALE")
     print("=" * 35)
@@ -13,7 +11,6 @@ def mostra_menu(voci):
 
 
 def chiedi_scelta(num_voci):
-    """Chiede una scelta all'utente e la restituisce come intero."""
     while True:
         try:
             scelta = int(input("Scelta: "))
@@ -25,7 +22,6 @@ def chiedi_scelta(num_voci):
 
 
 def chiedi_float(messaggio):
-    """Chiede un numero decimale all'utente con messaggio personalizzato."""
     while True:
         try:
             return float(input(messaggio))
@@ -34,5 +30,4 @@ def chiedi_float(messaggio):
 
 
 def stampa_risultato(etichetta, valore):
-    """Stampa un risultato formattato."""
     print(f"\n  → {etichetta}: {valore:.4g}")
