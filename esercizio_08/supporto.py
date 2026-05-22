@@ -1,5 +1,4 @@
 def filtra_per_anno(veicoli, anno_minimo):
-    """Restituisce i veicoli prodotti dall'anno indicato in poi."""
     return [v for v in veicoli if v.anno >= anno_minimo]
 
 

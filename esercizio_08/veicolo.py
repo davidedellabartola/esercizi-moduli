@@ -6,7 +6,6 @@ class Veicolo:
         self.anno = anno
 
     def mostra_info(self):
-        """Stampa le informazioni del veicolo in modo leggibile."""
         print(f"  Marca:   {self.marca}")
         print(f"  Modello: {self.modello}")
         print(f"  Anno:    {self.anno}")
